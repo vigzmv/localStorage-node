@@ -1,0 +1,36 @@
+{
+  "name": "localstorage-node",
+  "version": "0.0.8",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigzmv/localStorage-node.git"
+  },
+  "keywords": [
+    "localstorage",
+    "node",
+    "testing",
+    "storage"
+  ],
+  "author": "vigzmv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vigzmv/localStorage-node/issues"
+  },
+  "homepage": "https://github.com/vigzmv/localStorage-node#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.2.0"
+  }
+}
