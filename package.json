@@ -1,11 +1,8 @@
 {
-  "name": "localstorage-node",
+  "name": "polyfill-localstorage-node",
   "version": "0.0.8",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "description": "in memory localStorage polyfill for node.js utilizing ES6 proxies",
+  "main": "./src/index.js",
   "engines": {
     "node": ">=6"
   },
