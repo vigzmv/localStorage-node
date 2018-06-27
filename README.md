@@ -10,6 +10,12 @@ in memory localStorage polyfill for node.js utilizing ES6 proxies.
 npm i polyfill-localstorage-node -D
 ```
 
+## Tests
+
+```sh
+npm run test
+```
+
 ## Usage
 
 ```js
@@ -19,12 +25,6 @@ require('polyfill-localstorage-node')
 
 import 'polyfill-localstorage-node'
 global.localStorage // now has your in memory localStorage
-```
-
-## Tests
-
-```sh
-npm run test
 ```
 
 For API doc, refer to MDN.
